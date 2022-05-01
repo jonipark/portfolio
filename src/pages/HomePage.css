@@ -1,0 +1,16 @@
+.home-container {
+  padding-top: 120px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+.tech-stack-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+}
+
+.tech-stack-logo:hover {
+  /* TODO: hover -> show title! */
+}
+

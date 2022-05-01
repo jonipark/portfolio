@@ -1,0 +1,18 @@
+.projectcard-container {
+    width: 48%;
+}
+
+.projectcard-container:hover {
+    cursor: pointer;
+}
+
+.thumbnail-container {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.thumbnail-container:hover {
+    border: 4px #FFB800 solid;
+}

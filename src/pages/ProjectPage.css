@@ -1,0 +1,64 @@
+.projectpage-container {
+    padding-top: 120px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+/* CSS */
+
+.button-category {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 16px;
+    line-height: 46px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-category-clicked {
+    background-color: #fbeee0;
+    border: 1px solid gray;
+    border-radius: 30px;
+    box-shadow: #FFB800 4px 4px 0 0;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 16px;
+    line-height: 46px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+.button-category:hover {
+    transition: 0.3s;
+    color: #FFB800;
+}
+
+.button-category-clicked:hover {
+  background-color: #fff;
+}
+
+.button-category-clicked:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+/* @media (min-width: 768px) {
+  .button-category {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+} */
