@@ -30,8 +30,8 @@ function HomePage() {
                     </div>
 
                     <p className='padding-top-32 flex font-sm gray'>I’m a software engineer/technical product manager specializing in React and iOS development.</p>
-                    <p className='padding-top-16 flex font-sm gray'>💻  Incoming Software Engineer Intern at Brex</p>
-                    <p className='padding-top-4 flex font-sm gray'>🛠 Previosuly, a Technical Product Manager at Ringle</p>
+                    <p className='padding-top-16 flex font-sm gray'>💻  Incoming Software Engineer Intern at<span className='padding-left-3 yellow'> Brex</span></p>
+                    <p className='padding-top-4 flex font-sm gray'>🛠 Previosuly, a Technical Product Manager at<span className='padding-left-3 yellow'> Ringle</span></p>
                     <p className='padding-top-4 flex font-sm gray'>🎓 Currently a senior at Mount Holyoke College (Expected May 2023)</p>
                 
                     <div className='padding-top-32 flex'>
