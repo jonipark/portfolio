@@ -8,7 +8,7 @@ import "./ProjectCard.css"
 
 function ProjectCard({thumbnail, title, type, desc, url}) {
     return(
-        <div className='projectcard-container padding-bottom-48' onClick={() => window.location.href=url}>
+        <a className='projectcard-container padding-bottom-48' href={url} target='_blank' rel="noreferrer" /*onClick={() => window.location.href=url}*/>
             <div className='flex justify-center thumbnail-container'>
                 <img src={thumbnail} alt='project-thumbnail' width="100%" />
             </div>
@@ -17,7 +17,7 @@ function ProjectCard({thumbnail, title, type, desc, url}) {
                 <p className='padding-top-8 italic'>{type}</p>
                 <p className='padding-top-4 font-light'>{desc}</p>
             </div>
-        </div>
+        </a>
     )
 }
 

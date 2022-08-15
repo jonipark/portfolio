@@ -1,9 +1,18 @@
 export const TechStackItems = [
     {
-        title: 'Python'
+        title: 'JavaScript'
     },
     {
-        title: 'JavaScript'
+        title: 'TypeScript'
+    },
+    {
+        title: 'React'
+    },
+    {
+        title: 'ReactNative'
+    },
+    {
+        title: 'Python'
     },
     {
         title: 'HTML5'
@@ -15,6 +24,11 @@ export const TechStackItems = [
         title: 'Swift'
     },
     {
+        title: 'GraphQL'
+    },
+    
+    // line 2
+    {
         title: 'C'
     },
     {
@@ -24,19 +38,7 @@ export const TechStackItems = [
         title: 'Ruby'
     },
     {
-        title: 'React'
-    },
-
-    // line 2
-
-    {
         title: 'GitHub'
-    },
-    {
-        title: 'Firebase'
-    },
-    {
-        title: 'Jira'
     },
     {
         title: 'Raspberrypi'
@@ -48,13 +50,10 @@ export const TechStackItems = [
         title: 'Figma'
     },
     {
-        title: 'Sketch'
+        title: 'Firebase'
     },
     {
-        title: 'Zeplin'
-    },
-    {
-        title: 'AI'
+        title: 'Jira'
     },
     
 ]
