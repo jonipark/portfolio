@@ -55,7 +55,7 @@ export const ProjectItems = [
       title: 'Marron Mirror',
       type: 'Raspberry Pi, JavaScript',
       desc: 'Smart mirror that displays curated user information',
-      url: 'https://github.com/MichMich/MagicMirror',
+      url: 'https://github.com/marron-sojo/MMM-ASL',
       category: 'others',
     },
     {
