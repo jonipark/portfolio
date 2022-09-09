@@ -46,7 +46,7 @@ export const ProjectItems = [
       title: 'SingSangSong',
       type: 'iOS(Swift), Realm',
       desc: 'Memo app for my go-to karaoke songs',
-      url: 'https://apps.apple.com/tr/app/singsangsong-%EC%94%BD%EC%8C%A9%EC%8F%AD/id1485081089?l=tr',
+      url: 'https://apps.apple.com/us/app/singsangsong-%EC%94%BD%EC%8C%A9%EC%8F%AD/id1485081089?l=us',
       category: 'mobile',
     },
     {
