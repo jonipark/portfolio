@@ -1,7 +1,9 @@
 .home-container {
   padding-top: 120px;
-  padding-left: 240px;
-  padding-right: 240px;
+  /* padding-left: 240px;
+  padding-right: 240px; */
+  padding-left: 16%;
+  padding-right: 16%;
 }
 
 .tech-stack-logo {

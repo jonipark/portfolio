@@ -26,6 +26,23 @@ export const ProjectItems = [
       category: 'mobile-android',
     },
     {
+      //TODO: higher resolution thumbnail / update to Medium blog url
+      thumbnail: 'https://i.im.ge/2022/08/16/OO97Op.IMG-0658.jpg',
+      title: 'Marron Mirror',
+      type: 'Raspberry Pi, JavaScript',
+      desc: 'Smart mirror that displays curated user information',
+      url: 'https://medium.com/@zeepada/part-2-build-our-own-magic-mirror-module-mmm-asl-903418edc3e5',
+      category: 'others',
+    },
+    {
+      thumbnail: 'https://i.im.ge/2023/03/22/Dpygv9.JoniGPT.png',
+      title: 'JoniGPT',
+      type: 'GPT-3, React, Next.js',
+      desc: 'Website that allows users to chat with a GPT-3 model',
+      url: 'https://github.com/jonipark/JoniGPT',
+      category: 'web',
+    },
+    {
       thumbnail: 'https://i.im.ge/2023/02/09/a6OHqJ.Instagram-Clone.png',
       title: 'Jonistagram',
       type: 'Swift, Parse',
@@ -42,12 +59,19 @@ export const ProjectItems = [
       category: 'mobile-ios',
     },
     {
-      //TODO: higher resolution thumbnail / update to Medium blog url
-      thumbnail: 'https://i.im.ge/2022/08/16/OO97Op.IMG-0658.jpg',
-      title: 'Marron Mirror',
-      type: 'Raspberry Pi, JavaScript',
-      desc: 'Smart mirror that displays curated user information',
-      url: 'https://github.com/marron-sojo/MMM-ASL',
+      thumbnail: 'https://i.im.ge/2023/03/22/DpyUKm.ow-1.png',
+      title: 'Overwatch Revenge (2D)',
+      type: 'WebGL, OpenGL, Kotlin',
+      desc: 'Overwatch supports revenge',
+      url: 'https://github.com/jonipark/ComputerGraphics',
+      category: 'others',
+    },
+    {
+      thumbnail: 'https://i.im.ge/2023/03/22/DpyLwf.car-1.png',
+      title: 'Car and Wheels (3D)',
+      type: 'WebGL, OpenGL, Kotlin',
+      desc: 'Car and Wheels movement',
+      url: 'https://github.com/jonipark/ComputerGraphics',
       category: 'others',
     },
     {

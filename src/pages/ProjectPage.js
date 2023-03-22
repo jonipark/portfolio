@@ -18,30 +18,30 @@ function ProjectPage() {
     }
 
     function filterProject(projectType) {
-        let filtredProject = getProject().filter((type) => type.category === projectType);
-        return filtredProject;
+        let filteredProject = getProject().filter((type) => type.category === projectType);
+        return filteredProject;
     }
 
-    const [filtredProject, setFiltredProject] = useState(null);
+    const [filteredProject, setFilteredProject] = useState(null);
         useEffect(() => {
-        setFiltredProject(getProject());
+        setFilteredProject(getProject());
     }, []);
 
     let typeProject = "all";
 
     // TODO: select "all" from the start
-    const [filtredType, setFiltredType] = useState(null);
+    const [filteredType, setFilteredType] = useState(null);
         useEffect(() => {
-            setFiltredType(typeProject);
+            setFilteredType(typeProject);
     }, []);
 
     function handleProject(e) {
         typeProject = e.target.value;
         typeProject !== "all"
-            ? setFiltredProject(filterProject(typeProject))
-            : setFiltredProject(getProject());
+            ? setFilteredProject(filterProject(typeProject))
+            : setFilteredProject(getProject());
         
-        setFiltredType(typeProject);
+        setFilteredType(typeProject);
     }
 
     return (
@@ -55,7 +55,7 @@ function ProjectPage() {
                                 <button onClick={handleProject}
                                     value={type.value}
                                     
-                                    className = { (filtredType===type.value)
+                                    className = { (filteredType===type.value)
                                         ? 'button-category-clicked'
                                         : 'button-category'
                                     }
@@ -69,8 +69,8 @@ function ProjectPage() {
                 </div>
 
                 <div className='padding-top-48 flex space-btw wrap'>
-                    {filtredProject &&
-                        filtredProject.map((card) => (
+                    {filteredProject &&
+                        filteredProject.map((card) => (
                             <ProjectCard key={card.id} thumbnail={card.thumbnail} title={card.title} type={card.type} desc={card.desc} url={card.url}/>
                     ))}
                 </div>
