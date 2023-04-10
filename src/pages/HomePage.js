@@ -6,7 +6,7 @@ import ProjectCard from '../components/Project/ProjectCard'
 import { ProjectItems } from'../components/Project/ProjectItems'
 import GitHubLogo from'../resources/logo/github.svg'
 import LinkedInLogo from'../resources/logo/linkedin.svg'
-import DevpostLogo from'../resources/logo/devpost.svg'
+import DevpostLogo from'../resources/logo/dev.svg'
 import { TechStackItems } from'../components/TechStackItems'
 
 
@@ -37,7 +37,7 @@ function HomePage() {
                     <div className='padding-top-32 flex'>
                         {/* social media */}
                         <a target="_blank" href='https://github.com/jonipark'><img alt='GitHub-logo' src={GitHubLogo}/></a>
-                        <a className='padding-left-8' target="_blank" href='https://www.linkedin.com/in/joeun-park/d'><img alt='LinkedIn-logo' src={LinkedInLogo}/></a>
+                        <a className='padding-left-8' target="_blank" href='https://www.linkedin.com/in/joeun-park/'><img alt='LinkedIn-logo' src={LinkedInLogo}/></a>
                         <a className='padding-left-8' target="_blank" href='https://devpost.com/joeun?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav'><img alt='Devpost-logo' src={DevpostLogo}/></a>
                     </div>
 

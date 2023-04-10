@@ -27,8 +27,8 @@ function AboutPage() {
                             </div>
                             <div style={{width: '225px'}}>
                                 <p className='semi-bold font-m'>👋 Currently Learning</p>
-                                <li className='padding-top-12 font-light font-s'>UX design</li>
-                                <li className='padding-top-12 font-light font-s'>Machine learning</li>
+                                <li className='padding-top-12 font-light font-s'>Game Programming</li>
+                                <li className='padding-top-12 font-light font-s'>AI application</li>
                             </div>
                         </div>
 
@@ -36,6 +36,8 @@ function AboutPage() {
                         <div className='padding-top-48 flex space-btw'>
                             <div style={{width: '225px'}}>
                                 <p className='semi-bold font-m'>🔭 Personal interests</p>
+                                <li className='padding-top-12 font-light font-s'>AR/VR</li>
+                                <li className='padding-top-12 font-light font-s'>Gen AI</li>
                                 <li className='padding-top-12 font-light font-s'>Space</li>
                                 <li className='padding-top-12 font-light font-s'>Board games</li>
                                 <li className='padding-top-12 font-light font-s'>Notion</li>
@@ -44,7 +46,9 @@ function AboutPage() {
                             </div>
                             <div style={{width: '225px'}}>
                                 <p className='semi-bold font-m'>💡 Current Projects</p>
-                                <li className='padding-top-12 font-light font-s'>Several iOS App development</li>
+                                <li className='padding-top-12 font-light font-s'>iOS AR App</li>
+                                <li className='padding-top-12 font-light font-s'>Stardew Valley-like Java Game</li>
+                                <li className='padding-top-12 font-light font-s'>ChatGPT Chrome Extension</li>
                                 <li className='padding-top-12 font-light font-s'>Smart Mirror using Raspberrypi</li>
                                 <li className='padding-top-12 font-light font-s'>School org website using React</li>
                             </div>
